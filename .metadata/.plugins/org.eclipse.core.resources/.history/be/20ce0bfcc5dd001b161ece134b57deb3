@@ -1,0 +1,17 @@
+package eg1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductMain{
+	public static void main(String[] args) {
+
+		List<Product> busList = new ArrayList<>();
+		
+	
+
+
+
+
+
+}

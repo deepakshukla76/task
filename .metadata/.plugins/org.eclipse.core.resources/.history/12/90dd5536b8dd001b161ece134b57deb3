@@ -1,0 +1,61 @@
+package eg1;
+
+public abstract class Product implements Comparable<Product>{
+
+	private int ProductId;
+	private String ManufacturerName;
+	private String ProductName;
+	private float cost ;
+	public Boolean ProductAvailability;
+	public Product(int productId, String manufacturerName, String productName, float cost,Boolean  ProductAvailability) {
+		super();
+		ProductId = productId;
+		ManufacturerName = manufacturerName;
+		ProductName = productName;
+		this.cost = cost;
+	}
+	public int getProductId() {
+		return ProductId;
+	}
+	public void setProductId(int productId) {
+		ProductId = productId;
+	}
+	public String getManufacturerName() {
+		return ManufacturerName;
+	}
+	public void setManufacturerName(String manufacturerName) {
+		ManufacturerName = manufacturerName;
+	}
+	public String getProductName() {
+		return ProductName;
+	}
+	public void setProductName(String productName) {
+		ProductName = productName;
+	}
+	public float getCost() {
+		return cost;
+	}
+	public void setCost(float cost) {
+		this.cost = cost;
+	}
+	public Boolean getProductAvailability() {
+		return ProductAvailability;
+	}
+	public void setProductAvailability(Boolean productAvailability) {
+		ProductAvailability = productAvailability;
+	}
+	@Override
+	public String toString() {
+		return "Product [ProductId=" + ProductId + ", ManufacturerName=" + ManufacturerName + ", cost=" + cost + ", rating=" + rating + "]";
+	}
+
+	@Override
+	public int compareTo(Bus o) {
+		Integer i1=this.busId;
+		Integer i2=o.busId;
+		return i2.compareTo(i1);
+	}
+	
+	
+	
+}

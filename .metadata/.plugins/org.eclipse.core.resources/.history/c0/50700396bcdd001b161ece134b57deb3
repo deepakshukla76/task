@@ -1,0 +1,20 @@
+package eg1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductMain {
+
+	public static void main(String[] args) {
+		
+		
+		
+		List<product> productList = new ArrayList<>();
+		busList.add(new Product(10, "Louis philipee", "cloth", "yes"));
+		busList.add(new product(11, "Addidas", "shoes", "No"));
+		busList.add(new product(12, "RED Lebel", "grocery", "No"));
+		busList.add(new product(13, "Raymond", "cloth", "yes"));
+		busList.add(new Product(14, "Campus", "shoes", "yes"));
+		
+	}
+}

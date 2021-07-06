@@ -1,0 +1,32 @@
+package eg1;
+
+import java.util.ArrayList;
+
+
+public class ProductMain {
+
+	public static  void main(String[] args) {
+		
+		
+		
+		List<Product> productList = new ArrayList<>();
+		
+		productList1.add(new Product(10, "Louis philipee", "cloth",5201,true));
+		productList2.add(new Product(11, "Addidas", "shoes",5200, false));
+		productList3.add(new Product(12, "RED Lebel", "grocery",2100, false));
+		productList4.add(new Product(13, "Raymond", "cloth", 3100,true));
+		productList5.add(new Product(14, "Campus", "shoes",1500, true));
+		
+		System.out.println("Printing all the product");
+		printProductList(productList1);
+		
+	}
+
+	private static void printProductList(List<Product> productList2) {
+		List<ProductMain> ProductList;
+		Iterator<ProductMain> i=ProductList.iterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		
+	}
+}

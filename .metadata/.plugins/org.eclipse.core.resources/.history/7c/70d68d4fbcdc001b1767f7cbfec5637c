@@ -1,0 +1,21 @@
+package Example;
+
+public class Airthmatic {
+	
+	public static void main(String[] args)
+	{
+		int a=115, b=120;
+		
+		System.out.println("a + b = " +(a + b));
+		
+		System.out.println("a-b = "+(a - b));
+		
+		System.out.println("a * b = "+(a * b));
+		
+		System.out.println("a / b = "+(a / b));
+		
+		System.out.println("a % b = "+(a % b));
+		
+	}
+
+}

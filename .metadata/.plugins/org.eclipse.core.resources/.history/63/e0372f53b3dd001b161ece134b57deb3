@@ -1,0 +1,12 @@
+package eg1;
+public class product implements Comparable<Product> {
+
+	private int busId;
+	private String busProvider;
+	private double cost;
+	private float rating;
+	
+
+public class product {
+
+}

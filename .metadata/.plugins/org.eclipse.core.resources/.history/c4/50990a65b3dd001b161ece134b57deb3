@@ -1,0 +1,7 @@
+package eg1;
+public class productmain {
+
+	public static void main(String[] args) {
+		
+	}
+}

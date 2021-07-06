@@ -1,0 +1,42 @@
+package readingInput_demo;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter student-1 details");
+		System.out.println("Enter name");
+		String name=sc.nextLine();
+		System.out.println("Enter Age");
+		int age=Integer.parseInt(sc.nextLine());
+		System.out.println("Enter Salary ");
+		double salary=Double.parseDouble(sc.nextLine());
+		System.out.println("Enter gender m/f/o");
+		char gender=sc.nextLine().charAt(0);
+		
+//		System.out.println("Hello "+name);
+//		System.out.println("Age : "+age);
+//		System.out.println("Salary : "+salary);
+//		System.out.println("Gender : "+gender);
+		
+		Student s=new Student(name, age, salary, gender);
+		System.out.println("student-1 details is "+s);
+		
+		Student s1=new Student();
+		System.out.println("Enter student-2 details");
+		System.out.println("Enter name");
+		s1.setName(sc.nextLine());
+		System.out.println("Enter Age");
+		s1.setAge(Integer.parseInt(sc.nextLine()));
+		System.out.println("Enter Salary ");
+		s1.setSalary(Double.parseDouble(sc.nextLine()));
+		System.out.println("Enter gender m/f/o");
+		s1.setGender(sc.nextLine().charAt(0));
+		
+		System.out.println("\nstudent-2 details is "+s1);
+
+	}
+
+}
